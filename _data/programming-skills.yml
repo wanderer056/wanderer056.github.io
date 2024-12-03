@@ -1,0 +1,17 @@
+- name: Python
+  percentage: 90
+  color: danger
+
+- name: FastAPI
+  percentage: 90
+  color:
+
+- name: PostgreSQL
+  percentage: 80
+  color: info 
+
+- name: Redis 
+  percentage: 60
+  color: secondary
+
+
