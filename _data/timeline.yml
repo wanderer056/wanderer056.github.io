@@ -1,0 +1,38 @@
+- title: Backend Developer, Teslatech Nepal , Lalitpur 
+  from: 09/2023
+  to: Present
+  description: Designed and implemented highly scalable game servers and asynchronous RESTful APIs using FastAPI and Aiohttp to ensure reliable performance under high user loads. Managed PostgreSQL databases with optimized schema design and query execution while leveraging Redis for caching and real-time JSON database features such as leaderboards and matchmaking. Implemented robust authentication systems using Firebase and integrated Firebase Cloud Messaging (FCM) to provide secure user access and enhance engagement through push notifications. Contributed to delivering updates for Callbreak, a 4-player multiplayer game with over 100 million downloads and 2-3 million daily active users, ensuring seamless backend and frontend integration. Additionally, implemented comprehensive monitoring and optimization strategies to improve application performance and scalability, supporting millions of daily users efficiently.
+
+
+- title: Game Developer Intern, Teslatech Nepal , Lalitpur 
+  from: 07/2023
+  to: 09/2023
+  description: Learned and applied skills in the Godot game engine, developing clean and 
+               efficient GDScript code for gameplay elements and user interfaces. Actively 
+               participated in learning sessions to enhance game development knowledge and 
+               tackle problem-solving challenges, such as those on Project Euler. 
+               Collaborated effectively with team members using Git for version control, 
+               ensuring smooth teamwork and seamless code integration.
+
+
+- title: Software Engineer Intern, LIS Nepal Pvt. Ltd., Lalitpur 
+  from: 10/2022
+  to: 02/2023
+  description: Assisted in preparing the Sales Data Mart and creating ad-hoc reports 
+               and metrics in Tableau to support reporting needs. Collaborated closely 
+               with the QA team to conduct data validation testing, ensuring accuracy and 
+               consistency in reporting. Additionally, worked on automating repetitive tasks using 
+               Python to improve efficiency. Developed proof of concepts for optimizing Tableau 
+               dashboard performance and implemented measures to secure PII data, enhancing both usability 
+               and data protection.
+
+
+- title: Student, Kantipur Engineering College
+  from: 06/2019
+  to: 04/2023
+  description: Completed a degree in Computer Engineering, focusing on 
+               software system development and optimization. Gained 
+               expertise in programming, algorithms, and system design through coursework and hands-on projects.
+
+
+
