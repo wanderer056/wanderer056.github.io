@@ -75,10 +75,10 @@ description: A web application leveraging Topic Modeling (an unsupervised NLP me
 
 {% capture list_items %}
 View Scraper Source Code,https://www.github.com
-View Topic Modeling Source Code,https://www.github.com
+View Topic Modeling Source Code,https://github.com/wanderer056/News-Aggregator-ML/
 View Express.js Backend Code, https://www.github.com
-View Frontend ReactJS Code, https://www.github.com
-Topic Coherence code (FastAPI), https://www.github.com
+View Frontend ReactJS Code, https://github.com/wanderer056/NewsAggregator-Frontend
+Topic Coherence code (FastAPI), https://github.com/wanderer056/News-Aggregator-ML/blob/main/other-notebooks/embeddings-using-sbert.ipynb
 {% endcapture %}
-{% include elements/list.html title="Source Codes" %}
+{% include elements/list.html title="Source Codes" new_tab=true %}
 
