@@ -1,16 +1,15 @@
 ---
 name: Virtual Whiteboard 
 tools: [OpenCV, Deep Learning, LSTM]
-image: https://user-images.githubusercontent.com/94151612/184805466-dd590146-32ab-4877-8c7e-641db5e92108.png 
+image: /assets/virtualwhiteboard-thumb.png 
 description: Hands-free doodling on your screen using hand gestures with LSTM-based Virtual Whiteboard
-# external_url: https://github.com/wanderer056/Virtual-Whiteboard
 ---
 
 # Virtual WhiteBoard
 
 The Virtual Whiteboard is a deep learning application using LSTM and OpenCV that enables users to draw and doodle using hand gestures detected by the front camera. It offers an intuitive, hands-free platform for visual explanations 
 
-![preview](https://user-images.githubusercontent.com/94151612/184805541-3399c20a-147a-4e9b-ac54-a21c3e16ebb3.png)
+![preview](/assets/virtualwhiteboard-inside.png)
 In the **Virtual Whiteboard** program, you can activate the doodling feature by pressing the hotkey `Ctrl + Alt + H`. This triggers an overlay on the current screen, activating the front camera for hand gesture recognition. Once enabled, you can seamlessly doodle on the screen using just your hands, providing a hands-free and intuitive way to create drawings and illustrations in real time.
 
 ### Publication
