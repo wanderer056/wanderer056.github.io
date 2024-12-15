@@ -3,28 +3,27 @@ name: News Aggregator
 tools: [Topic Modeling, Machine Learning, Express.js, Scrapy, FastAPI, MongoDB, ReactJS]
 image: /assets/news-aggregator-thumb.png
 description: A web application leveraging Topic Modeling (an unsupervised NLP method) to cluster Nepali news articles and identify the most significant, interpretable keywords for each cluster.
-# external_url: https://github.com/wanderer056/Virtual-Whiteboard
 ---
 
 # News Aggregator
 
-**News Aggregator** is a web application that scrapes Nepali news articles from multiple news sources (currently [OnlineKhabar](https://www.onlinekhabar.com/) and [Annapurna Post](https://www.annapurnapost.com/)) and employs topic modeling techniques to group similar articles by their headlines while providing meaningful topics for the clusters.
+**News Aggregator** is a web application that scrapes Nepali news articles from multiple news sources (currently [OnlineKhabar](https://www.onlinekhabar.com/){:target="_blank"} and [Annapurna Post](https://www.annapurnapost.com/){:target="_blank"}) and employs topic modeling techniques to group similar articles by their headlines while providing meaningful topics for the clusters.
 
 ![preview](/assets/frontpage.png)
 
-{% include elements/button.html link="https://nepnews-aggregator-2plic.ondigitalocean.app/" text="View Live App" block=true %}
+{% include elements/button.html link="https://newsaggregator.sumantapaudel.com.np" text="View Live App" block=true target="_blank" %}
 
 ---
 
 ## Features and Workflow
 
 1. **Web Scraping**  
-   - Built using Scrapy and deployed to [Zyte](https://www.zyte.com/scrapy-cloud/).  
+   - Built using Scrapy and deployed to [Zyte Scrapy Cloud](https://www.zyte.com/scrapy-cloud/){:target="_blank"}.  
    - The scraper initially gathers a comprehensive dataset of news articles, including the headline, publication date, and link, which is stored in MongoDB.  
    - It can also scrape new articles at regular intervals for real-time updates.
 
 2. **Topic Modeling Pipeline**  
-   The pipeline for clustering and topic extraction is powered by [BERTopic](https://maartengr.github.io/BERTopic/index.html).  
+   The pipeline for clustering and topic extraction is powered by [BERTopic](https://maartengr.github.io/BERTopic/index.html){:target="_blank"}.  
    
    - **Embeddings Generation**  
      - Initial trials with pre-trained sentence transformers produced suboptimal embeddings for the Nepali language.  
@@ -57,14 +56,14 @@ description: A web application leveraging Topic Modeling (an unsupervised NLP me
   {% include elements/figure.html image="/assets/clusters.png" caption="Cluster Formed" %}
 
   <p class="text-center">
-  {% include elements/button.html link="https://nepnews-aggregator-2plic.ondigitalocean.app/topic_map.html" text="Interactable Visualization of Clusters" style="primary" size="sm" %}
+  {% include elements/button.html link="https://newsaggregator.sumantapaudel.com.np/visual.html" text="Interactable Visualization of Clusters" style="primary" size="sm" target="_blank"%}
   </p>
 
 - **Intertopic Distance Map**  
   {% include elements/figure.html image="/assets/intertopic-distance-map.png" caption="Intertopic Distance Map" %}
 
   <p class="text-center">
-  {% include elements/button.html link="https://nepnews-aggregator-2plic.ondigitalocean.app/visual.html" text="Interactable Intertopic Distance Map" style="primary" size="sm" %}
+  {% include elements/button.html link="https://newsaggregator.sumantapaudel.com.np/topic_map.html" text="Interactable Intertopic Distance Map" style="primary" size="sm" target="_blank"%}
   </p>
 
 ---
