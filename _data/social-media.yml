@@ -95,3 +95,8 @@ keybase:
   url   : https://www.keybase.io/
   icon  : fab fa-keybase
   color : 66ccff
+
+devto:
+  url : https://dev.to/
+  icon : fab fa-dev 
+  color : 333333
